@@ -37,6 +37,26 @@
     border: 1px solid #ccc;
     background-color: #ffff99; /* Amarillo claro */
   }
+
+  .navbar .button {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    margin: 0 5px;
+    background-color: #ffff99; /* Amarillo claro */
+    border: 1px solid #ccc;
+    color: black;
+    text-decoration: none; /* Sin subrayado para el enlace */
+    cursor: pointer;
+  }
+
+  .navbar .button:hover {
+    background-color: #ffdd99; /* Cambia el color al pasar el mouse */
+  }
+  
+  a.button {
+    display: inline-block; /* Permite que los <a> se comporten como botones */
+  }
   
   /* Header */
   .header {

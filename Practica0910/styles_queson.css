@@ -1,0 +1,28 @@
+*{
+    padding: o;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    background: #DAF7A6;
+    height: 80px;
+    width: 100%;
+}
+#enlace_logo{
+    position: absolute;
+    padding: 20px 50px;
+}
+#logo{
+    height: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 6px;
+}
